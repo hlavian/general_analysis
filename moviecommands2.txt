@@ -1,0 +1,2 @@
+From frame 0 to frame 200
+-rotate by 400 degrees around (0,0,1)
