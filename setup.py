@@ -1,14 +1,14 @@
 from setuptools import setup
 
 
-setup(name='bouterin_private',
+setup(name='general_analysis',
       version='0.1',
-      description='Hagar analysis of Stytra data',
-      url='http://github.com/hlavian/bouterin_private',
+      description='Hagar analysis of imaging data',
+      url='http://github.com/hlavian/general_analysis',
       author="Hagar Lavian",
-      author_email='lavian@neuro.mpg.de',
+      author_email='hagar.lavian@tum.de',
       python_requires=">=3.5",
       license="GNU General Public License v3",
-      packages=['bouterin_private'],
+      packages=['general_analysis'],
       zip_safe=False)
 
