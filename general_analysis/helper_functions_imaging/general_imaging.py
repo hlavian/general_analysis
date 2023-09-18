@@ -13,7 +13,7 @@ def normalize_traces(traces):
     return norm_traces
 
 
-def exp_decay_kernel(tau, dt, len_rec, upsample=1):
+def exp_decay_kernel(tau, dt, len_rec, upsample=10):
     t = np.arange(len_rec * upsample) * dt / upsample
 
     decay = np.exp(-t / tau)
